@@ -31,7 +31,7 @@ kotlin {
         }
     }
 
-    jvm("desktop")
+    jvm()
 
     /**
     js {
