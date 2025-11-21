@@ -37,7 +37,7 @@ jobs:
       # This runs the same command you run in terminal.
       # It checks compilation for Android and Desktop (JVM).
       - name: Build with Gradle
-        run: ./gradlew :composeApp:assembleDebug :composeApp:jvmMainClasses
+        run: ./gradlew :composeApp:assembleDebug :composeApp:desktopMainClasses
 
       # Step 6: Run Tests (Optional for now, but good practice)
       # - name: Run Unit Tests
